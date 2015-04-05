@@ -1,0 +1,10 @@
+body {
+	font-family: "Andale Mono";
+	font-weight:bold;
+	color:#fff;
+}
+
+div {
+	background:#000;
+	display:inline-block;
+}
