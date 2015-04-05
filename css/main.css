@@ -2,9 +2,36 @@ body {
 	font-family: "Andale Mono";
 	font-weight:bold;
 	color:#fff;
+	font-size:4em;
+}
+
+div#sign {
+	background:#fff;
 }
 
 div {
 	background:#000;
 	display:inline-block;
+}
+
+div.row {
+	height:1em;
+}
+
+div.row > div {
+	height:.5em;
+	overflow:hidden;
+	float:left;
+}
+
+div.row > div > div {
+	padding:0;
+	margin:0;
+	float:left;
+	line-height: .74em;
+}
+
+div.bottom {
+	display:block;
+	clear:left;
 }
